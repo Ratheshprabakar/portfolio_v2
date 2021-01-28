@@ -1,5 +1,5 @@
  AOS.init({
- 	duration: 20,
+ 	duration: 500,
  	easing: 'slide'
  });
 
@@ -8,7 +8,7 @@ $(document).ready(function($) {
 	"use strict";
 
 	$(window).stellar({
-    responsive: false,
+    responsive: true,
     parallaxBackgrounds: true,
     parallaxElements: true,
     horizontalScrolling: false,
